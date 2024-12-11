@@ -1,10 +1,11 @@
-!DOCTYPE html>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Nyro</title>
+  <title>Nyro Homepage</title>
   
   
   <style>
@@ -467,9 +468,9 @@
       </div>
       <div class="header-buttons">
         <!-- Sign In Button -->
-        <a href="sign-in.html">
+        <a href="login.php">
           <button>Sign In</button>
-          <a href="sign-in.html">
+          <a href="registration.php">
             <button>Sign Up</button>
         </a>
        <!-- Cart Button with Icon -->
@@ -540,7 +541,7 @@
     </div>
     <div class="banner-text">
       <h2>Up to 50% off on New Arrivals!</h2>
-      <a href="#" class="shop-now-btn">Shop Now</a>
+      <a href="registration.php" class="shop-now-btn">Shop Now</a>
     </div>
   </section>
 
@@ -579,7 +580,9 @@
         <span class="star"> &#9733;</span>
         <span class="star"> &#9733;</span>
       </div>
+      <a href="registration.php">
       <button>Add to Cart</button>
+      </a>
     </div>
     <div class="product-item">
       <div class="badge" >Best Seller</div>
@@ -593,8 +596,9 @@
         <span class="star"> &#9733;</span>
         <span class="star"> &#9733;</span>
       </div>
-
+      <a href="registration.php">
       <button>Add to Cart</button>
+      </a>
     </div>
     <div class="product-item">
       <div class="badge" >Best Seller</div>
@@ -608,6 +612,7 @@
         <span class="star"> &#9733;</span>
         <span class="star"> &#9733;</span>
       </div>
+      <a href="registration.php">
       <button>Add to Cart</button>
     </div>
   </div>
@@ -622,42 +627,54 @@
       <img src="r1.jpg" alt="Product 1">
       <h3>Cloud Walkers</h3>
       <p>₱999.0</p>
+      <a href="registration.php">
       <button>Add to Cart</button>
+      </a>
     </div>
     <!-- Product 2 -->
     <div class="product-item">
       <img src="r2.jpg" alt="Product 2">
       <h3>City Slickers</h3>
       <p>₱754.0</p>
+      <a href="registration.php">
       <button>Add to Cart</button>
+      </a>
     </div>
     <!-- Product 3 -->
     <div class="product-item">
       <img src="r3.jpg" alt="Product 3">
       <h3>Trail Blaizers</h3>
       <p>₱689.0</p>
+      <a href="registration.php">
       <button>Add to Cart</button>
+      </a>
     </div>
     <!-- Product 4 -->
     <div class="product-item">
       <img src="r4.jpg" alt="Product 4">
       <h3>Zen Masters</h3>
       <p>₱458.0</p>
+      <a href="registration.php">
       <button>Add to Cart</button>
+      </a>
     </div>
     <!-- Product 5 -->
     <div class="product-item">
       <img src="r5.jpg" alt="Product 5">
       <h3>Pixel Perfect</h3>
       <p>₱577.0</p>
+      <a href="registration.php">
       <button>Add to Cart</button>
+      </a>
     </div>
     <!-- Product 6 -->
     <div class="product-item">
       <img src="r6.jpg" alt="Product 6">
       <h3>Sound Seakers</h3>
       <p>₱689.0</p>
+      <a href="registration.php">
       <button>Add to Cart</button>
+      </a>
     </div>
   </div>
 </section>
