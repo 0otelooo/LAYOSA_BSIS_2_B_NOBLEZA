@@ -1,0 +1,14 @@
+CREATE TABLE `orders` (
+ `id` int(11) NOT NULL AUTO_INCREMENT,
+ `user_id` int(11) NOT NULL,
+ `item_id` int(11) NOT NULL,
+ `quantity` int(11) NOT NULL,
+ `order_status` varchar(50) DEFAULT 'Pending',
+ `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+ `status` enum('Pending','Confirmed','Shipped','Delivered','Paid') DEFAULT 'Pending',
+ PRIMARY KEY (`id`),
+ KEY `user_id` (`user_id`),
+ KEY `item_id` (`item_id`),
+ CONSTRAINT `orders_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `register` (`id`),
+ CONSTRAINT `orders_ibfk_2` FOREIGN KEY (`item_id`) REFERENCES `items` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci

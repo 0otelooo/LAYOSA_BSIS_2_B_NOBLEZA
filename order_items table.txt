@@ -1,0 +1,12 @@
+CREATE TABLE `order_items` (
+ `id` int(11) NOT NULL AUTO_INCREMENT,
+ `order_id` int(11) NOT NULL,
+ `item_id` int(11) NOT NULL,
+ `quantity` int(11) NOT NULL,
+ `price` decimal(10,2) NOT NULL,
+ PRIMARY KEY (`id`),
+ KEY `order_id` (`order_id`),
+ KEY `item_id` (`item_id`),
+ CONSTRAINT `order_items_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`),
+ CONSTRAINT `order_items_ibfk_2` FOREIGN KEY (`item_id`) REFERENCES `items` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci
